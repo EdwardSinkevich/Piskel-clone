@@ -1,0 +1,179 @@
+.drawing-tools-section-wrap {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 500px;
+  width: 100px;
+}
+
+.drawing-tools-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.size-picker-container {
+  display: flex;
+  padding: 5px;
+}
+
+.size-picker-option {
+  position: relative;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+  border: 2px solid #444444;
+  cursor: pointer;
+}
+
+.size-picker-option:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: block;
+}
+
+.size-picker-option.selected {
+  border-color: gold;
+}
+
+.pick-size-1 {
+  padding: 5px;
+}
+
+.pick-size-2 {
+  padding: 4px;
+}
+
+.pick-size-3 {
+  padding: 3px;
+}
+
+.pick-size-4 {
+  padding: 2px;
+}
+
+.tools-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tool-icon {
+  position: relative;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  background-color: #3a3a3a;
+}
+
+.tool-icon.selected:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 3px solid gold;
+  box-sizing: border-box;
+}
+
+.icon-tool-pen {
+  background-image: url("./images/icons.png");
+  background-position: -182px -92px;
+}
+
+.icon-tool-paint-bucket {
+  background-image: url("./images/icons.png");
+  background-position: -228px -92px;
+}
+
+.icon-tool-fill-same-color {
+  background-image: url("./images/icons.png");
+  background-position: -228px -138px;
+}
+
+.icon-tool-eraser {
+  background-image: url("./images/icons.png");
+  background-position: -46px -228px;
+}
+
+.icon-tool-colorpicker {
+  background-image: url("./images/icons.png");
+  background-position: -274px 0px;
+}
+
+.icon-common-swapcolors-arrow-grey {
+  background-image: url("./images/icons.png");
+  background-position: -274px -222px;
+  width: 18px;
+  height: 18px;
+}
+
+.tool-color-picker {
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+}
+
+.tool-color-picker:nth-child(1) {
+  margin-top: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.tool-color-picker:nth-child(2) {
+  margin-top: -20px;
+  margin-left: 25px;
+}
+
+.color-picker {
+  display: none;
+}
+
+.sp-preview {
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/background-clear.png");
+}
+
+.sp-preview-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 4px solid #444444;
+}
+
+.swap-colors-button {
+  position: relative;
+  margin-top: -18px;
+  cursor: pointer;
+}
+
+.cursor-coordinates {
+  display: none;
+  color: gold;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 20px;
+}
+
+.pick-size-tooltip {
+  bottom: 20px;
+  left: 0px;
+}
+
+.tool-tooltip {
+  bottom: 45px;
+}
+
+.color-tooltip {
+  bottom: 40px;
+}
+
+.swap-color-tooltip {
+  left: 20px;
+  bottom: 3px;
+}

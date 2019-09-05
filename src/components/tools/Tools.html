@@ -1,0 +1,83 @@
+<div class="drawing-tools-section">
+  <div class="pen-size-container size-picker-container">
+    <div
+      class="size-picker-option pick-size-1 tooltip-action selected"
+      data-size="1"
+    >
+      <span class="tooltip pick-size-tooltip">Press 1</span>
+    </div>
+    <div class="size-picker-option pick-size-2 tooltip-action" data-size="2">
+      <span class="tooltip pick-size-tooltip">Press 2</span>
+    </div>
+    <div class="size-picker-option pick-size-3 tooltip-action" data-size="3">
+      <span class="tooltip pick-size-tooltip">Press 3</span>
+    </div>
+    <div class="size-picker-option pick-size-4 tooltip-action" data-size="4">
+      <span class="tooltip pick-size-tooltip">Press 4</span>
+    </div>
+  </div>
+  <ul id="tools-container" class="tools-wrapper">
+    <li
+      class="tool-icon icon-tool-pen tooltip-action selected"
+      data-tool-id="tool-pen"
+    >
+      <span class="tooltip tool-tooltip">Press P</span>
+    </li>
+    <li
+      class="tool-icon icon-tool-paint-bucket tooltip-action"
+      data-tool-id="tool-paint-bucket"
+    >
+      <span class="tooltip tool-tooltip">Press B</span>
+    </li>
+    <li
+      class="tool-icon icon-tool-fill-same-color tooltip-action"
+      data-tool-id="tool-fill-same-color"
+    >
+      <span class="tooltip tool-tooltip">Press A</span>
+    </li>
+    <li
+      class="tool-icon icon-tool-eraser tooltip-action"
+      data-tool-id="tool-eraser"
+    >
+      <span class="tooltip tool-tooltip">Press E</span>
+    </li>
+    <li
+      class="tool-icon icon-tool-colorpicker tooltip-action"
+      data-tool-id="tool-colorpicker"
+    >
+      <span class="tooltip tool-tooltip">Press Q</span>
+    </li>
+  </ul>
+  <div class="palette-wrapper">
+    <div class="tool-color-picker">
+      <input id="color-picker" class="color-picker" type="color" />
+      <div class="sp-preview">
+        <div
+          id="primary-color-palette"
+          class="sp-preview-inner primary-color tooltip-action"
+          data-tool-id="primary-color"
+        >
+          <span class="tooltip color-tooltip">Press Z</span>
+        </div>
+      </div>
+    </div>
+    <div class="tool-color-picker">
+      <input id="secondary-color-picker" class="color-picker" type="color" />
+      <div class="sp-preview">
+        <div
+          id="secondary-color-palette"
+          class="sp-preview-inner tooltip-action"
+          data-tool-id="secondary-color"
+        >
+          <span class="tooltip color-tooltip">Press X</span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="swap-colors-button icon-common-swapcolors-arrow-grey tooltip-action"
+      data-tool-id="swap-color"
+    >
+      <span class="tooltip swap-color-tooltip">Press C</span>
+    </div>
+  </div>
+</div>

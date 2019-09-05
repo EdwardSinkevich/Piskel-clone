@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.render Should create Header correctly 1`] = `
+"
+      <div class=\\"navigation\\">
+        <span class=\\"piskel-name\\">Piskel Clone</span>
+        <nav id=\\"navigation-links\\" class=\\"navigation-links\\">
+          <a id=\\"customBtn\\" class=\\"nav-btn google-sign-in-btn\\" href=\\"#\\">Sign in</a>
+        </nav>
+      </div>"
+`;

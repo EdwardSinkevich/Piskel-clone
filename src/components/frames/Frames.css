@@ -1,0 +1,124 @@
+.preview-list-wrapper {
+  padding-right: 8px;
+}
+
+::-webkit-scrollbar {
+  background: #CCF6ED;
+  border-radius: 4px;
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #21BB9A;
+  border-radius: 4px;
+}
+
+.frames-scroller {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.frame-item {
+  position: relative;
+  border: #444 3px solid;
+  border-radius: 3px;
+  margin: 5px 0;
+  width: 96px;
+  height: 96px;
+  z-index: 100;
+}
+
+.draggable-mirror {
+  display: list-item !important;
+}
+
+.frame-item:hover .tile-overlay {
+  opacity: 1.0;
+}
+
+.tile-view {
+  position: relative;
+}
+
+.tile-overlay {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.6);
+  opacity: 0;
+  height: 30px;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-frame-duplicate {
+  bottom: 0;
+  right: 0;
+  background-image: url('./images/icons.png');
+  background-position: -274px -76px;
+}
+
+.icon-frame-recyclebin {
+  display: none;
+  top: 0;
+  right: 0;
+  background-image: url('./images/icons.png');
+  background-position: -274px -106px;
+}
+
+.tile-count {
+  top: 0;
+  left: 0;
+  opacity: 1.0;
+  background-color: gold;
+  border-bottom-right-radius: 3px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.preview-list {
+  padding-right: 9px;
+}
+
+.icon-frame-dragndrop {
+  display: none;
+  bottom: 0;
+  left: 0;
+  cursor: move;
+  background-image: url('./images/icons.png');
+  background-position: -274px -46px;
+}
+
+.add-frame-action {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  padding: 6px 0;
+  width: 96px;
+  border: #888888 solid 3px;
+  border-radius: 4px;
+  color: #888888;
+  background-color: #222222;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.icon-frame-plus {
+  width: 26px;
+  height: 26px;
+  margin: 3px;
+  background-image: url('./images/icons.png');
+  background-position: -274px -157px;
+  flex-shrink: 0;
+}
+
+.label {
+  text-align: left;
+}
+
+.add-frame-tooltip {
+  top: 47px;
+  right: 12px;
+}

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Frames.render Should render correctly 1`] = `
+"
+    <div class=\\"frames-scroller\\">
+      <ul id=\\"preview-list\\" class=\\"preview-list\\"><li class=\\"frame-item\\" data-tile-number=\\"1\\"><div class=\\"lowcont-dark-canvas-background\\">
+    <div class=\\"canvas-background\\"></div>
+    <canvas class=\\"tile-view canvas\\" width=\\"96\\" height=\\"96\\"></canvas></div>
+    <button class=\\"tile-overlay icon-frame-duplicate\\" data-tile-action=\\"clone\\"></button>
+    <button class=\\"tile-overlay icon-frame-recyclebin\\" data-tile-action=\\"delete\\"></button>
+    <div class=\\"tile-overlay icon-frame-dragndrop handle\\"></div>
+    <button class=\\"tile-overlay tile-count\\">1</button></li></ul>
+      <div id=\\"add-frame-action\\" class=\\"add-frame-action tooltip-action\\" data-tile-action=\\"add\\">
+        <div class=\\"icon-frame-plus\\"></div>
+        <div class=\\"label\\">Add new frame</div>
+        <span class=\\"tooltip add-frame-tooltip\\">Press N</span>
+      </div>
+    </div>"
+`;

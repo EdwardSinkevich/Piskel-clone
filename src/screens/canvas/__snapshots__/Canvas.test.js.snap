@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`canvasObj.render() Should render correctly 1`] = `
+"<main id=\\"main-container\\" class=\\"main-container\\">
+  <div id=\\"canvas-section\\" class=\\"canvas-section\\">
+    <div id=\\"preview-list-wrapper\\" class=\\"preview-list-wrapper\\"></div>
+    <div id=\\"main-canvas-wrapper\\" class=\\"main-canvas-wrapper\\">
+      <div class=\\"size-btns\\">
+        <div data-canvas-size=\\"32\\" class=\\"size-btn size-btn-32 nav-btn tooltip-action\\">
+          32<span class=\\"tooltip size-canvas-tooltip\\">Press T</span>
+        </div>
+        <div data-canvas-size=\\"64\\" class=\\"size-btn size-btn-64 nav-btn tooltip-action\\">
+          64<span class=\\"tooltip size-canvas-tooltip\\">Press Y</span>
+        </div>
+        <div data-canvas-size=\\"128\\" class=\\"size-btn size-btn-128 nav-btn tooltip-action selected\\">
+          128<span class=\\"tooltip size-canvas-tooltip\\">Press U</span>
+        </div>
+      </div>
+      <div class=\\"drawing-canvas-container\\">
+        <div class=\\"canvas-background\\"></div>
+        <canvas id=\\"drawing-canvas\\" class=\\"drawing-canvas\\" width=\\"512\\" height=\\"512\\"></canvas>
+      </div>
+    </div>
+    <div id=\\"animated-preview-container\\" class=\\"animated-preview-container\\"></div>
+  </div>
+</main>
+"
+`;

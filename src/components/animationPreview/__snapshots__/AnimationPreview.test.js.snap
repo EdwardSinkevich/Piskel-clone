@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimationPreview.render Should render correctly 1`] = `
+"
+    <div id=\\"canvas-container-wrapper\\" class=\\"canvas-container-wrapper\\">
+      <div id=\\"animated-preview-canvas-container\\" class=\\"animated-preview-canvas-container\\">
+        <div class=\\"canvas-background\\"></div>
+        <div id=\\"animation-player\\" class=\\"animation-player\\"></div>
+      </div>
+      <div class=\\"display-fps-container\\">
+        <button id=\\"full-screen-btn\\" class=\\"nav-btn full-screen-btn tooltip-action\\">Full
+        <span class=\\"tooltip full-screen-tooltip\\">Press F</span>
+        </button>
+        <span id=\\"display-fps\\" class=\\"display-fps\\">1 FPS</span>
+        <input id=\\"range-fps\\" class=\\"range-fps\\" type=\\"range\\" min=\\"0\\" step=\\"1\\" value=\\"1\\" max=\\"24\\">
+      </div>
+    </div>"
+`;

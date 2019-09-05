@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CursorCoordinates.render Should render correct 1`] = `"<div class=\\"cursor-coordinates\\" id=\\"cursor-coordinates\\"></div>"`;
